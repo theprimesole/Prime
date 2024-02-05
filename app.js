@@ -16,8 +16,8 @@ window.paypal
           body: JSON.stringify({
             cart: [
               {
-                id: "YOUR_PRODUCT_ID",
-                quantity: "YOUR_PRODUCT_QUANTITY",
+                id: "https://theprimesole.myshopify.com/products/jordan-4-retro?variant=47896262050094",
+                quantity: "2",
               },
             ],
           }),
