@@ -9,7 +9,7 @@
     <div id="paypal-button-container"></div>
     <p id="result-message"></p>
     <!-- Replace the "test" client-id value with your client-id -->
-    <script src="https://www.paypal.com/sdk/js?client-id=test&components=buttons&enable-funding=paylater,venmo,card" data-sdk-integration-source="integrationbuilder_sc"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AZbnj7-PnbT2eEX21r2d4WqPsv1UjyogoH8jYjFKsmR7ltxhO7JcdTWlftMf52Fl2TFPBxbcmFuagqy0&components=buttons&enable-funding=paylater,venmo,card" data-sdk-integration-source="integrationbuilder_sc"></script>
     <script src="app.js"></script>
   </body>
 </html>
