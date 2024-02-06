@@ -19,11 +19,11 @@ app.use(express.json());
  */
 const generateAccessToken = async () => {
   try {
-    if (!PAYPAL_CLIENT_ID || !PAYPAL_CLIENT_SECRET) {
+    if (!AZbnj7-PnbT2eEX21r2d4WqPsv1UjyogoH8jYjFKsmR7ltxhO7JcdTWlftMf52Fl2TFPBxbcmFuagqy0 || !EOU_Zh-p9vgCv295enYLLvgHjQOBKe6oEh9654wY2n9rARhjFiU3QF6WT2AAgq2sLuJ9P6ZfBQeN3OJc) {
       throw new Error("MISSING_API_CREDENTIALS");
     }
     const auth = Buffer.from(
-      PAYPAL_CLIENT_ID + ":" + PAYPAL_CLIENT_SECRET,
+      AZbnj7-PnbT2eEX21r2d4WqPsv1UjyogoH8jYjFKsmR7ltxhO7JcdTWlftMf52Fl2TFPBxbcmFuagqy0 + ":" + EOU_Zh-p9vgCv295enYLLvgHjQOBKe6oEh9654wY2n9rARhjFiU3QF6WT2AAgq2sLuJ9P6ZfBQeN3OJc,
     ).toString("base64");
     const response = await fetch(`${base}/v1/oauth2/token`, {
       method: "POST",
