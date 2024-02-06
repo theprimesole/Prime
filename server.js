@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 import "dotenv/config";
 import path from "path";
 
-const { PAYPAL_CLIENT_ID, PAYPAL_CLIENT_SECRET, PORT = 8888 } = process.env;
+const { AZbnj7-PnbT2eEX21r2d4WqPsv1UjyogoH8jYjFKsmR7ltxhO7JcdTWlftMf52Fl2TFPBxbcmFuagqy0, EOU_Zh-p9vgCv295enYLLvgHjQOBKe6oEh9654wY2n9rARhjFiU3QF6WT2AAgq2sLuJ9P6ZfBQeN3OJc, PORT = prime } = process.env;
 const base = "https://api-m.sandbox.paypal.com";
 const app = express();
 
@@ -58,8 +58,8 @@ const createOrder = async (cart) => {
     purchase_units: [
       {
         amount: {
-          currency_code: "USD",
-          value: "100.00",
+          currency_code: "QAR",
+          value: "1899.00",
         },
       },
     ],
